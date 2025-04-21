@@ -1,0 +1,921 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+#071a3d
+
+
+------- svg ------
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+</svg>
+
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+</svg>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+  <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm14.024-.983a1.125 1.125 0 0 1 0 1.966l-5.603 3.113A1.125 1.125 0 0 1 9 15.113V8.887c0-.857.921-1.4 1.671-.983l5.603 3.113Z" clip-rule="evenodd" />
+</svg>
+
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5">
+  <path fill-rule="evenodd" d="M2 10a8 8 0 1 1 16 0 8 8 0 0 1-16 0Zm5-2.25A.75.75 0 0 1 7.75 7h.5a.75.75 0 0 1 .75.75v4.5a.75.75 0 0 1-.75.75h-.5a.75.75 0 0 1-.75-.75v-4.5Zm4 0a.75.75 0 0 1 .75-.75h.5a.75.75 0 0 1 .75.75v4.5a.75.75 0 0 1-.75.75h-.5a.75.75 0 0 1-.75-.75v-4.5Z" clip-rule="evenodd" />
+</svg>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5">
+  <path fill-rule="evenodd" d="M5.75 2a.75.75 0 0 1 .75.75V4h7V2.75a.75.75 0 0 1 1.5 0V4h.25A2.75 2.75 0 0 1 18 6.75v8.5A2.75 2.75 0 0 1 15.25 18H4.75A2.75 2.75 0 0 1 2 15.25v-8.5A2.75 2.75 0 0 1 4.75 4H5V2.75A.75.75 0 0 1 5.75 2Zm-1 5.5c-.69 0-1.25.56-1.25 1.25v6.5c0 .69.56 1.25 1.25 1.25h10.5c.69 0 1.25-.56 1.25-1.25v-6.5c0-.69-.56-1.25-1.25-1.25H4.75Z" clip-rule="evenodd" />
+</svg>
+
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5">
+  <path fill-rule="evenodd" d="M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+</svg>
+
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5">
+  <path fill-rule="evenodd" d="M11.78 5.22a.75.75 0 0 1 0 1.06L8.06 10l3.72 3.72a.75.75 0 1 1-1.06 1.06l-4.25-4.25a.75.75 0 0 1 0-1.06l4.25-4.25a.75.75 0 0 1 1.06 0Z" clip-rule="evenodd" />
+</svg>
+
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5">
+  <path fill-rule="evenodd" d="M9.47 6.47a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 1 1-1.06 1.06L10 8.06l-3.72 3.72a.75.75 0 0 1-1.06-1.06l4.25-4.25Z" clip-rule="evenodd" />
+</svg>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5">
+  <path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+</svg>
+
+logo 
+<svg width="300" height="60" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                  <stop
+                    offset="0%"
+                    style={{ stopColor: "#003087", stopOpacity: 1 }}
+                  />
+                  <stop
+                    offset="100%"
+                    style={{ stopColor: "#0052CC", stopOpacity: 1 }}
+                  />
+                </linearGradient>
+              </defs>
+
+              <rect width="300" height="60" fill="url(#grad1)" />
+
+              <text
+                x="50%"
+                y="50%"
+                font-family="Montserrat, sans-serif"
+                font-size="40"
+                font-weight="bold"
+                fill="#FFFFFF"
+                text-anchor="middle"
+                dominant-baseline="middle"
+              >
+                VISTAS
+              </text>
+            </svg>
+
+
+
+menu 
+<svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="24"
+              height="24"
+              className="size-9"
+            >
+              <rect x="0" y="6" width="20" height="2" fill="currentColor" />
+
+              <rect x="0" y="11" width="14" height="2" fill="currentColor" />
+
+              <rect x="0" y="16" width="8" height="2" fill="currentColor" />
+            </svg>
+
+close
+<svg
+              className="size-6"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth="2.5"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M6 18 18 6M6 6l12 12"
+              />
+            </svg>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header
+
+
+            import React, { useState } from "react";
+import { NavLink, Link } from "react-router-dom";
+import { useAuth } from "../AuthContext";
+
+const Header = () => {
+  const [barBtn, setBarBtn] = useState("");
+  const [colseBtn, setColseBtn] = useState("hidden");
+  const [menuSituation, setMenuSituation] = useState("hidden");
+  const [headerSituation, setHeaderSituation] = useState("");
+  const [headerBg, setHeaderBg] = useState("bg-transparent");
+  const [searchDrop, setSearchDrop] = useState("animate-dropdown-hide");
+  window.onscroll = () => {
+    setHeaderBg(window.scrollY >= 500 ? "bg-[#071a3d]" : "bg-transparent");
+  };
+
+  let lastScrollTop = 0;
+
+  window.addEventListener("scroll", function () {
+    let currentScroll = window.scrollY;
+    // console.log('currentScroll : ' , currentScroll);
+
+    if (currentScroll > lastScrollTop) {
+      // console.log('down');
+    } else if (currentScroll < lastScrollTop) {
+      // console.log('up');
+    }
+
+    lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
+  });
+
+  const toggleShowHideMenu = () => {
+    setBarBtn(barBtn === "hidden" ? "" : "hidden");
+    setColseBtn(colseBtn === "hidden" ? "" : "hidden");
+    setMenuSituation(menuSituation === "hidden" ? "" : "hidden");
+  };
+
+  return (
+    <header className="relative bg-transparent  text-white z-50  ">
+      <div
+        className={
+          headerBg +
+          " container fixed top-0 left-0 border-b-[1px] border-[#ffffff6d] shadow-lg min-w-full flex justify-between items-center"
+        }
+      >
+        <div className="flex items-center">
+          <div className="menuBtn ">
+            <div className="borderd_elements relative border-l-0 border-b-0 border-t-0 flex flex-col cursor-pointer py-[27px] pl-6 lg:pl-[100px] pr-5 md:flex-row-reverse md:items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+                className="size-6 md:ml-3 md:size-7"
+              >
+                <rect x="0" y="6" width="20" height="2" fill="currentColor" />
+
+                <rect x="0" y="11" width="14" height="2" fill="currentColor" />
+
+                <rect x="0" y="16" width="8" height="2" fill="currentColor" />
+              </svg>
+
+              <span className="text-sm md:text-base">Menu</span>
+            </div>
+          </div>
+          <div className="logo w-[135px] h-fit ml-[17px] ">
+            <NavLink>
+              <img src={require("../assest/logo.svg").default} alt="" />
+            </NavLink>
+          </div>
+        </div>
+
+        <div className=" flex  justify-between items-center  ">
+          <nav className="hidden xl:flex xl:pr-4 ">
+            <NavLink className="border_bottom_hovred relative py-[30.2px] px-3 text-[14px] mx-2 ">
+              <p>Courses </p>
+            </NavLink>
+            <NavLink className="border_bottom_hovred relative py-[30.2px] px-3 text-[14px] mx-2 ">
+              <p>My Space</p>
+            </NavLink>
+            <NavLink className="border_bottom_hovred relative py-[30.2px] px-3 text-[14px] mx-2 ">
+              <p>School</p>
+            </NavLink>
+            <NavLink className="border_bottom_hovred relative py-[30.2px] px-3 text-[14px] mx-2 ">
+              <p>Newsroom</p>
+            </NavLink>
+          </nav>
+
+          <div
+            onClick={() => setSearchDrop("animate-dropdown-show")}
+            className="borderd_elements relative w-fit  border-r-0border-b-0 border-t-0 hidden py-[28px] pl-5 pr-24 cursor-pointer lg:flex items-center"
+          >
+            <span className=" text-[17px] pr-5 font-normal">Search</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth="1.5"
+              stroke="currentColor"
+              className="size-5"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <div
+        id="dropSearch"
+        className={
+          searchDrop +
+          " fixed top-0 left-0 bg-[#FFFFFF] min-w-full h-[78dvh]  ease-in-out transition-discrete delay-300 duration-700 "
+        }
+      >
+        <div className="relative text-[#071a3d] container w-5/6 bg-transparent mx-auto flex flex-col items-center justify-center h-full pb-10">
+          <h1 className="font-[500] text-3xl px-5 py-10">
+            What are you looking for?
+          </h1>
+
+          <div className="relative w-2/3 bg-yellow-400">
+            <input
+              type="text"
+              placeholder="Write your search "
+              className="w-full bg-[#e5eaf2] px-5 h-12 text-[16px]"
+            />
+            <button className="absolute right-0 top-0 bg-[#071a3d] px-5 py-3 text-[#FFFFFF] font-medium text-base">
+              Search
+            </button>
+          </div>
+
+          <div className="mt-10 w-4/6">
+            <h2 className="text-xl font-[500] py-4">Most search topics</h2>
+            <div className="grid grid-cols-2 gap-x-96 ">
+              <Link className="hover:underline text-lg mt-1 ">
+                <span>Search result</span>
+                <span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="size-5 inline "
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </span>
+              </Link>
+              <Link className="hover:underline text-lg mt-1">
+                <span>Search result</span>
+                <span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="size-5 inline"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </span>
+              </Link>
+              <Link className="hover:underline text-lg mt-1">
+                <span>Search result</span>
+                <span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="size-5 inline"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </span>
+              </Link>
+              <Link className="hover:underline text-lg mt-1">
+                <span>Search result</span>
+                <span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="size-5 inline"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </span>
+              </Link>
+              <Link className="hover:underline text-lg mt-1">
+                <span>Search result</span>
+                <span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="size-5 inline"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </span>
+              </Link>
+              <Link className="hover:underline text-lg mt-1">
+                <span>Search result</span>
+                <span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="size-5 inline"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </span>
+              </Link>
+            </div>
+          </div>
+
+          <button
+            onClick={() => setSearchDrop("animate-dropdown-hide")}
+            className="absolute -right-4 top-14"
+          >
+            <svg
+              className="size-8"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth="2.5"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M6 18 18 6M6 6l12 12"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div
+        id="dropMenu"
+        className="fixed w-full bg-[#FFFFFF] h-screen md:w-[650px]  md:pl-20 text-[#071a3d]"
+      >
+        <div className="">
+          <div className="">
+            <div className="">
+              <NavLink className="">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  id="Calque_1"
+                  viewBox="0 0 200 36"
+                >
+                  <path
+                    className="st0 fill-[#071a3d]"
+                    d="M92.4 12.3C92.4 5.7 88.1.7 79.2.7H61.3v34.5h8.4v-27h9.5c3.5 0 4.8 2 4.8 4.3 0 2.4-1.3 4.3-4.8 4.3h-8.1l11.6 18.4h9.6s-7.9-12.4-7.8-12.4c4.8-1.1 7.9-4.5 7.9-10.5M47.3.7h8.4v34.5h-8.4zM20.4.7L2.8 35.3h9.5l2.8-5.8h14.2l-3.5-7.3h-7.1l5.2-10.6h.1l11.8 23.7h9.7L27.9.7zM123.1 17.3c2.7-1.5 4.1-3.8 4.1-7.3 0-5.6-4.2-9.3-11.1-9.3H96.4v34.5h20.4c7.1 0 11.8-3.8 11.8-9.7.1-4-2.2-7-5.5-8.2M104.8 8H116c1.7 0 3 1.3 3 3s-1.3 3-3 3h-11.2V8zm11.5 20h-11.5v-7h11.5c2 0 3.6 1.5 3.6 3.5s-1.6 3.5-3.6 3.5M155.2 20c0 5.2-2.4 8.1-7.2 8.1-4.7 0-7.1-2.9-7.1-8.1V.7h-8.6v18.7c0 10.7 5.6 16.6 15.8 16.6s15.8-5.9 15.8-16.6V.7h-8.6V20zM186.3 14.5c-8-1.9-9.7-2.1-9.7-4.4 0-1.8 2-2.6 5.4-2.6 4.5 0 9.2 1.1 11.9 2.8l2.7-7C193 1.3 188 0 182 0c-8.9 0-13.9 4.4-13.9 10.4 0 6.4 3.7 9 12.3 10.8 6.7 1.5 8.1 2.4 8.1 4.3 0 2-1.8 2.9-5.5 2.9-5.3 0-10-1.3-13.8-3.4l-2.6 7.4c4.2 2.2 10.4 3.6 16.6 3.6 8.7 0 13.9-4 13.9-10.8.1-5.5-3.4-9-10.8-10.7"
+                  />
+                </svg>
+              </NavLink>
+            </div>
+
+            <button className="">
+              <svg
+                className="size-8"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="2.5"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M6 18 18 6M6 6l12 12"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+  );
+};
+
+export default Header;
+
+
+
+
+
+
+
+
+
+
+
+
+section homepage 
+
+
+
+<section className="bg-[#FFFFFF] min-w-full min-h-screen ">
+        <div className="text-[#071a3d] py-10 pr-4 bg-[#FFFFFF] lg:flex">
+          <div className="pl-10 lg:w-1/3">
+            <p className="text-sm font-[400]">Airbus stories</p>
+            <p id="after" className="text-[30px] font-base relative mb-6 pb-6">
+              Our purpose in action
+            </p>
+            <p className="text-[#000100] text-lg pl-10 py-1 pb-3 lg:pl-0">
+              At Airbus, how we work is just as important as our products and
+              services. See how our commitments inspire us every day.
+            </p>
+
+            <div className="hidden lg:flex">
+              <button className="bg-[#FFFFFF] rounded-full p-[6px] mr-1 border-[1.34px] border-[#071a3d] hover:bg-zinc-200">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  className="size-[25px]"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M11.78 5.22a.75.75 0 0 1 0 1.06L8.06 10l3.72 3.72a.75.75 0 1 1-1.06 1.06l-4.25-4.25a.75.75 0 0 1 0-1.06l4.25-4.25a.75.75 0 0 1 1.06 0Z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+              </button>
+
+              <button className="bg-[#FFFFFF] rounded-full p-[6px] ml-1 border-[1.34px] border-[#071a3d] hover:bg-zinc-200">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  className="size-[25px]"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div className="w-full flex gap-5 px-4 mt-3 transition delay-150 duration-300 ease-in-out hover:scale-100 lg:w-2/3  overflow-x-scroll">
+           <div className="bg-[#FFFFFF] w-[300px] border-b-[1.4px] border-[#071a3d] rounded-md pt-3 pb-5 px-3">
+           <Link className="">
+              <div className="h-ft w-[250px]">
+                <img
+                  className=""
+                  src={require("../assest/resize.webp")}
+                  alt=""
+                />
+              </div>
+
+              <div className="">
+                <div className="mt-2 flex">
+                  <button className="w-fit pt-1 pb-[6px] px-5 rounded-3xl content-center bg-[#071a3d] text-[15px] font-medium text-[#FFFFFF] mr-1">
+                    Stories
+                  </button>
+                  <button className="w-fit pt-1 pb-[6px] px-5 rounded-3xl content-center bg-[#FFFFFF] text-[15px] font-medium text-[#071a3d] border-[1.4px] border-[#071a3d] ml-1">
+                    Innovation
+                  </button>
+                </div>
+
+                <div className="flex w-full items-center justify-between">
+                  <p className="text-lg font-[500]">
+                    Soaring towards future aircraft
+                  </p>
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      className="size-[25px] inline"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </span>
+                </div>
+
+                <div className="py-2">
+                  <p className="text-[#000100] text-base py-1">
+                  Airbus’ next-generation single aisle aircraft will incorporate novel technologies related to propulsion, wings, hybridisation,…
+
+
+                  </p>
+                  <p className="text-zinc-500 text-[12.5px] font-[500]">
+                    25 March 2025 <span></span> 6 min read
+                  </p>
+                </div>
+              </div>
+            </Link>
+           </div>
+
+           <div className="bg-[#FFFFFF] w-[300px] border-b-[1.4px] border-[#071a3d] rounded-md pt-3 pb-5 px-3">
+           <Link className="">
+              <div className="h-ft w-[250px]">
+                <img
+                  className=""
+                  src={require("../assest/resize1.webp")}
+                  alt=""
+                />
+              </div>
+
+              <div className="">
+                <div className="mt-2 flex">
+                  <button className="w-fit pt-1 pb-[6px] px-5 rounded-3xl content-center bg-[#071a3d] text-[15px] font-medium text-[#FFFFFF] mr-1">
+                    Stories
+                  </button>
+                  <button className="w-fit pt-1 pb-[6px] px-5 rounded-3xl content-center bg-[#FFFFFF] text-[15px] font-medium text-[#071a3d] border-[1.4px] border-[#071a3d] ml-1">
+                    Innovation
+                  </button>
+                </div>
+
+                <div className="flex w-full items-center justify-between">
+                  <p className="text-lg font-[500]">
+                    Soaring towards future aircraft
+                  </p>
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      className="size-[25px] inline"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </span>
+                </div>
+
+                <div className="py-2">
+                  <p className="text-[#000100] text-base py-1">
+                  Airbus’ next-generation single aisle aircraft will incorporate novel technologies related to propulsion, wings, hybridisation,…
+
+
+                  </p>
+                  <p className="text-zinc-500 text-[12.5px] font-[500]">
+                    25 March 2025 <span></span> 6 min read
+                  </p>
+                </div>
+              </div>
+            </Link>
+           </div>
+           
+
+           <div className="bg-[#FFFFFF] w-[300px] border-b-[1.4px] border-[#071a3d] rounded-md pt-3 pb-5 px-3">
+           <Link className="">
+              <div className="h-ft w-[250px]">
+                <img
+                  className=""
+                  src={require("../assest/resize (2.webp")}
+                  alt=""
+                />
+              </div>
+
+              <div className="">
+                <div className="mt-2 flex">
+                  <button className="w-fit pt-1 pb-[6px] px-5 rounded-3xl content-center bg-[#071a3d] text-[15px] font-medium text-[#FFFFFF] mr-1">
+                    Stories
+                  </button>
+                  <button className="w-fit pt-1 pb-[6px] px-5 rounded-3xl content-center bg-[#FFFFFF] text-[15px] font-medium text-[#071a3d] border-[1.4px] border-[#071a3d] ml-1">
+                    Innovation
+                  </button>
+                </div>
+
+                <div className="flex w-full items-center justify-between">
+                  <p className="text-lg font-[500]">
+                    Soaring towards future aircraft
+                  </p>
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      className="size-[25px] inline"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </span>
+                </div>
+
+                <div className="py-2">
+                  <p className="text-[#000100] text-base py-1">
+                  Airbus’ next-generation single aisle aircraft will incorporate novel technologies related to propulsion, wings, hybridisation,…
+
+
+                  </p>
+                  <p className="text-zinc-500 text-[12.5px] font-[500]">
+                    25 March 2025 <span></span> 6 min read
+                  </p>
+                </div>
+              </div>
+            </Link>
+           </div>
+
+
+           <div className="bg-[#FFFFFF] w-[300px] border-b-[1.4px] border-[#071a3d] rounded-md pt-3 pb-5 px-3">
+           <Link className="">
+              <div className="h-ft w-[250px]">
+                <img
+                  className=""
+                  src={require("../assest/resize 5.webp")}
+                  alt=""
+                />
+              </div>
+
+              <div className="">
+                <div className="mt-2 flex">
+                  <button className="w-fit pt-1 pb-[6px] px-5 rounded-3xl content-center bg-[#071a3d] text-[15px] font-medium text-[#FFFFFF] mr-1">
+                    Stories
+                  </button>
+                  <button className="w-fit pt-1 pb-[6px] px-5 rounded-3xl content-center bg-[#FFFFFF] text-[15px] font-medium text-[#071a3d] border-[1.4px] border-[#071a3d] ml-1">
+                    Innovation
+                  </button>
+                </div>
+
+                <div className="flex w-full items-center justify-between">
+                  <p className="text-lg font-[500]">
+                    Soaring towards future aircraft
+                  </p>
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      className="size-[25px] inline"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </span>
+                </div>
+
+                <div className="py-2">
+                  <p className="text-[#000100] text-base py-1">
+                  Airbus’ next-generation single aisle aircraft will incorporate novel technologies related to propulsion, wings, hybridisation,…
+
+
+                  </p>
+                  <p className="text-zinc-500 text-[12.5px] font-[500]">
+                    25 March 2025 <span></span> 6 min read
+                  </p>
+                </div>
+              </div>
+            </Link>
+           </div>
+
+
+
+           <div className="bg-[#FFFFFF] w-[300px] border-b-[1.4px] border-[#071a3d] rounded-md pt-3 pb-5 px-3">
+           <Link className="">
+              <div className="h-ft w-[250px]">
+                <img
+                  className=""
+                  src={require("../assest/resize3.webp")}
+                  alt=""
+                />
+              </div>
+
+              <div className="">
+                <div className="mt-2 flex">
+                  <button className="w-fit pt-1 pb-[6px] px-5 rounded-3xl content-center bg-[#071a3d] text-[15px] font-medium text-[#FFFFFF] mr-1">
+                    Stories
+                  </button>
+                  <button className="w-fit pt-1 pb-[6px] px-5 rounded-3xl content-center bg-[#FFFFFF] text-[15px] font-medium text-[#071a3d] border-[1.4px] border-[#071a3d] ml-1">
+                    Innovation
+                  </button>
+                </div>
+
+                <div className="flex w-full items-center justify-between">
+                  <p className="text-lg font-[500]">
+                    Soaring towards future aircraft
+                  </p>
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      className="size-[25px] inline"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </span>
+                </div>
+
+                <div className="py-2">
+                  <p className="text-[#000100] text-base py-1">
+                  Airbus’ next-generation single aisle aircraft will incorporate novel technologies related to propulsion, wings, hybridisation,…
+
+
+                  </p>
+                  <p className="text-zinc-500 text-[12.5px] font-[500]">
+                    25 March 2025 <span></span> 6 min read
+                  </p>
+                </div>
+              </div>
+            </Link>
+           </div>
+
+
+           <div className="bg-[#FFFFFF] w-[300px] border-b-[1.4px] border-[#071a3d] rounded-md pt-3 pb-5 px-3">
+           <Link className="">
+              <div className="h-ft w-[250px]">
+                <img
+                  className=""
+                  src={require("../assest/resize4.webp")}
+                  alt=""
+                />
+              </div>
+
+              <div className="">
+                <div className="mt-2 flex">
+                  <button className="w-fit pt-1 pb-[6px] px-5 rounded-3xl content-center bg-[#071a3d] text-[15px] font-medium text-[#FFFFFF] mr-1">
+                    Stories
+                  </button>
+                  <button className="w-fit pt-1 pb-[6px] px-5 rounded-3xl content-center bg-[#FFFFFF] text-[15px] font-medium text-[#071a3d] border-[1.4px] border-[#071a3d] ml-1">
+                    Innovation
+                  </button>
+                </div>
+
+                <div className="flex w-full items-center justify-between">
+                  <p className="text-lg font-[500]">
+                    Soaring towards future aircraft
+                  </p>
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      className="size-[25px] inline"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </span>
+                </div>
+
+                <div className="py-2">
+                  <p className="text-[#000100] text-base py-1">
+                  Airbus’ next-generation single aisle aircraft will incorporate novel technologies related to propulsion, wings, hybridisation,…
+
+
+                  </p>
+                  <p className="text-zinc-500 text-[12.5px] font-[500]">
+                    25 March 2025 <span></span> 6 min read
+                  </p>
+                </div>
+              </div>
+            </Link>
+           </div>
+
+
+
+           
+           
+          </div>
+
+          <div className="flex lg:hidden justify-self-end mt-5">
+              <button  className="bg-[#FFFFFF] rounded-full p-[6px] mr-1 border-[1.34px] border-[#071a3d] hover:bg-zinc-200">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  className="size-[25px]"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M11.78 5.22a.75.75 0 0 1 0 1.06L8.06 10l3.72 3.72a.75.75 0 1 1-1.06 1.06l-4.25-4.25a.75.75 0 0 1 0-1.06l4.25-4.25a.75.75 0 0 1 1.06 0Z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+              </button>
+
+              <button  className="bg-[#FFFFFF] rounded-full p-[6px] ml-1 border-[1.34px] border-[#071a3d] hover:bg-zinc-200">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  className="size-[25px]"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
