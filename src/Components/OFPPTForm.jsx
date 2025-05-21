@@ -1,43 +1,65 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import ".././style/ofppt.css"
 const OFPPTForm = () => {
   return (
-    <div className='bg-[#FFFFFF] lg:flex '>
-        <div id='stagairebgform' className='h-[30dvh] w-screen lg:min-h-screen lg:w-[60%]'>
-            
-
-            
+    <div className='ofppt-form'>
+      <div id='stagairebgform' className='lg:w-[60%] relative'>
+        <div className="absolute inset-0 flex items-center justify-center p-12">
+          <img 
+            src={('../assest/......png')} 
+            alt="OFPPT Campus"
+            className="w-full h-full object-cover opacity-90"
+          />
         </div>
-        <form className='w-screen lg:w-[40%] px-10 py-6'>
-        <div className='w-[100%] h-fit justify-self-center flex justify-between items-center'>
-            <div className="w-[45%]">
-            <img src={require('../assest/royaume_du_maroc_logo.png')} alt="" />
-            </div>
+      </div>
+      
+      <form className='w-full lg:w-[40%] px-6 py-8 lg:px-12 lg:py-16'>
+        <div className='flex justify-between items-center mb-12'>
+          <div className="w-[45%]">
+            <img 
+              src={require('../assest/royaume_du_maroc_logo.png')} 
+              alt="Royal Moroccan Seal" 
+              className='w-full max-w-[180px]'
+            />
+          </div>
 
-            <div className="w-[45%]"><img src={require('../assest/erasebg-transformed.png')} alt="" /></div>
-
-            
+          <div className="w-[45%] flex justify-end">
+            <img 
+              src={require('../assest/ofppt.png')} 
+              alt="OFPPT Logo" 
+              className='w-full max-w-[120px]'
+            />
+          </div>
         </div>
 
+        <div className="flex flex-col gap-6">
+          <input 
+            className='ofppt-input'
+            type="email" 
+            placeholder='Identifiant OFPPT' 
+          />
 
-        
-        <div className=" flex flex-col gap-4 pt-20 ">
-            <input className='text-[16px] py-3 px-5 border border-zinc-300 rounded-md' type="email" placeholder='Nome de Stagaire' />
+          <input 
+            className='ofppt-input'
+            type="password" 
+            placeholder='Mot de passe' 
+          />
 
-            <input className='text-[16px] py-3 px-5 border border-zinc-300 rounded-md' type="password" placeholder='Mote de Pass'/>
+          <button className='ofppt-button' type="submit">
+            Se connecter
+          </button>
 
-            <button className='bg-orange-500 text-white text-[16px] font-medium py-3 px-5 rounded-md hover:bg-orange-600' type="submit"> Se connecter </button>
-
-            <Link to={'/ofppt_inscription'} className='text-xs text-zinc-500'>
-              Créer un nouveau compte
+          <div className='flex flex-col gap-2 mt-4'>
+            <Link to={'/ofppt_inscription'} className='ofppt-link'>
+              Créer un compte institutionnel
             </Link>
-            <Link className='text-xs text-zinc-500'>
-              Mot de passe oublié
+            <Link to='/ofppt-password-reset' className='ofppt-link'>
+              Réinitialiser le mot de passe
             </Link>
+          </div>
         </div>
-        
-        </form>
+      </form>
     </div>
   )
 }

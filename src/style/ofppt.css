@@ -1,0 +1,135 @@
+/* OFPPT Specific Styles */
+.ofppt-form {
+min-height: 100vh;
+  display: flex;
+  flex-direction: row-reverse; /* Flip layout direction */
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.ofppt-form #stagairebgform {
+  background: linear-gradient(45deg, rgba(9, 132, 227, 0.08) 0%, rgba(255, 255, 255, 0.15) 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.ofppt-form #stagairebgform::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(45deg, 
+    transparent 0%, 
+    rgba(255, 255, 255, 0.1) 50%, 
+    transparent 100%);
+  animation: gradientFlow 15s infinite linear;
+}
+
+.ofppt-form form {
+  background: rgba(255, 255, 255, 0.97);
+  backdrop-filter: blur(12px);
+  box-shadow: -8px 0 30px rgba(0, 0, 0, 0.06);
+}
+
+/* Institutional Blue Accents */
+.ofppt-button {
+  background: linear-gradient(135deg, #4a4a4a 0%, #2d2d2d 100%);
+  color: white;
+  font-weight: 600;
+  padding: 1rem;
+  border-radius: 8px;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid #3a3a3a;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  position: relative;
+  overflow: hidden;
+}
+
+.ofppt-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(45, 45, 45, 0.2);
+  background: linear-gradient(135deg, #5a5a5a 0%, #3d3d3d 100%);
+}
+
+.ofppt-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 5px rgba(45, 45, 45, 0.3);
+}
+
+.ofppt-button::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(120deg, 
+    rgba(255, 255, 255, 0.15) 25%,
+    rgba(255, 255, 255, 0.05) 50%,
+    rgba(255, 255, 255, 0.15) 75%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.ofppt-button:hover::after {
+  opacity: 1;
+}
+
+/* Institutional Logo Styling */
+.ofppt-form img[alt="OFPPT Logo"] {
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+  transition: transform 0.3s ease;
+}
+
+.ofppt-form img[alt="OFPPT Logo"]:hover {
+  transform: scale(1.05) rotate(-2deg);
+}
+
+/* Enhanced Input Fields */
+.ofppt-input {
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1rem;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.ofppt-input:focus {
+  outline: none;
+  border-color: #0984e3;
+  box-shadow: 0 0 0 3px rgba(9, 132, 227, 0.1);
+}
+
+/* Institutional Links */
+.ofppt-link {
+  color: #636e72;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.ofppt-link:hover {
+  color: #0984e3;
+  text-decoration: underline;
+  transform: translateX(5px);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .ofppt-form {
+    flex-direction: column;
+  }
+  
+  .ofppt-form #stagairebgform {
+    height: 200px;
+  }
+  
+  .ofppt-form form {
+    width: 100%;
+    padding: 2rem 1.5rem;
+    box-shadow: 0 -8px 30px rgba(0, 0, 0, 0.05);
+  }
+}

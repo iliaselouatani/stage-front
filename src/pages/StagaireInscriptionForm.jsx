@@ -3,51 +3,92 @@ import { Link } from 'react-router-dom';
 
 const StagaireInscriptionForms = () => {
   return (
-    <section className='bg-[#FFFFFF] lg:flex '>
-        <div id='stagairebgform' className='h-[30dvh] w-screen lg:min-h-screen lg:w-[50%]'>
-            
+    <section className='stagiaire-form'>
+      <div id='stagairebgform' className='lg:w-[50%]'>
+        {/* Add the same background elements as login form */}
+        <div className="absolute inset-0 flex items-center justify-center p-12">
+          <img 
+            src={require('../assest/royaume_du_maroc_logo.png')} 
+            alt="Education"
+            className="w-full h-full object-contain opacity-90"
+          />
+        </div>
+      </div>
 
-            
-            </div>
+      <form className='w-full lg:w-[50%] px-6 py-8 lg:px-12 lg:py-16'>
+        <div className='flex justify-between items-center mb-12'>
+          <div className="w-[45%]">
+            <img 
+              src={require('../assest/royaume_du_maroc_logo.png')} 
+              alt="Royal Moroccan Seal" 
+              className='w-full max-w-[180px]'
+            />
+          </div>
 
-
-        <form className='w-screen lg:w-[50%] px-10 py-6'>
-        <div className='w-[100%] h-fit justify-self-center flex justify-between items-center'>
-            <div className="w-[45%]">
-            <img src={require('../assest/royaume_du_maroc_logo.png')} alt="" />
-            </div>
-
-            <div className="w-[45%]"><img src={require('../assest/erasebg-transformed.png')} alt="" /></div>
-
-            
+          <div className="w-[45%] flex justify-end">
+            <img 
+              src={require('../assest/ofppt.png')} 
+              alt="OFPPT Logo" 
+              className='w-full max-w-[120px]'
+            />
+          </div>
         </div>
 
-        
-        <div className=" flex flex-col gap-4 pt-10 ">
-            <div className=" flex justify-between">
-                <input className='text-[16px] py-3 px-5 border border-zinc-300 rounded-md w-[45%]' type="text" placeholder='Nome Complete' />
-                <input className='text-[16px] py-3 px-5 border border-zinc-300 rounded-md w-[45%]' type="text" placeholder='CIN' />
-            </div>
+        <div className="flex flex-col gap-6">
+          <div className="flex justify-between gap-4">
+            <input 
+              className='form-input w-[48%]'
+              type="text" 
+              placeholder='Nom Complet' 
+            />
+            <input 
+              className='form-input w-[48%]'
+              type="text" 
+              placeholder='CIN' 
+            />
+          </div>
 
-            <input type="tel" className="text-[16px] py-3 px-5 border border-zinc-300 rounded-md" id="" placeholder='Telephon de Stagaire' />
-            <input className='text-[16px] py-3 px-5 border border-zinc-300 rounded-md' type="text" placeholder="Nome de Vill d'etude" />
+          <input 
+            className='form-input'
+            type="tel" 
+            placeholder='Téléphone de Stagiaire' 
+          />
+          
+          <input 
+            className='form-input'
+            type="text" 
+            placeholder="Nom de Ville d'étude" 
+          />
 
-            <input className='text-[16px] py-3 px-5 border border-zinc-300 rounded-md' type="email" placeholder='Email' />
+          <input 
+            className='form-input'
+            type="email" 
+            placeholder='Email' 
+          />
 
-            <input className='text-[16px] py-3 px-5 border border-zinc-300 rounded-md' type="password" placeholder='Mote de Pass'/>
-            <input className='text-[16px] py-3 px-5 border border-zinc-300 rounded-md' type="password" placeholder='Confirme Mote de Pass'/>
+          <input 
+            className='form-input'
+            type="password" 
+            placeholder='Mot de Passe' 
+          />
+          
+          <input 
+            className='form-input'
+            type="password" 
+            placeholder='Confirmer Mot de Passe' 
+          />
 
-            <button className='bg-orange-500 text-white text-[16px] font-medium py-3 px-5 rounded-md hover:bg-orange-600' type="submit"> S'incrire </button>
+          <button className='form-button' type="submit">
+            S'inscrire
+          </button>
 
-            <Link to={'/forms/stagaire'} className='text-xs text-zinc-500'>
-              Se connecter
-            </Link>
-            
+          <Link to={'/forms/stagaire'} className='form-link text-center'>
+            Déjà un compte? Se connecter
+          </Link>
         </div>
-        
-        </form>
+      </form>
     </section>
   )
 }
 
-export default StagaireInscriptionForms
+export default StagaireInscriptionForms;

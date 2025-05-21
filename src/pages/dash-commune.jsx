@@ -5,20 +5,20 @@ function CommuneDashboard() {
   const navigate = useNavigate();
   const [demandes, setDemandes] = useState([
     {
-      id: 1,
-      nom: 'Omar El Idrissi',
-      cin: 'EF123456',
-      filiere: 'Mécanique',
-      statut: 'En attente',
+    id: 1,
+    nom: 'Omar El Idrissi',
+    cin: 'EF123456',
+    filiere: 'Mécanique',
+    statut: 'En attente',
     },
     {
-      id: 2,
-      nom: 'Latifa Amrani',
-      cin: 'GH789012',
-      filiere: 'Gestion',
-      statut: 'En attente',
+    id: 2,
+    nom: 'Latifa Amrani',
+    cin: 'GH789012',
+    filiere: 'Gestion',
+    statut: 'En attente',
     },
-  ]);
+]);
 
   const handleAccepter = (id) => {
     const updated = demandes.map((d) =>
